@@ -9,7 +9,7 @@ import img_box from '../../assets/images/box.png'
 
 const Features = () => {
   return (
-    <Features>
+    <div>
          <section className="Features">
                 <div className="container">     
                     <div className="flexx">
@@ -45,7 +45,7 @@ const Features = () => {
                 </div>
                
             </section>
-    </Features>
+    </div>
   )
 }
 

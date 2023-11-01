@@ -24,14 +24,14 @@ const AboutCompany = () => {
                             <p>About Company</p>
                             <h2>We Are Business Consulting & Credit Repair Experts</h2>
                             <div className="lorem-1">
-                                <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.</p1>
+                                <div className='"lorem-1"'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos.</div>
                             </div>
                             <div className="lorem-2">
-                                <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</p2>
+                                <div className='"lorem-2"'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse quasi incidunt adipisci accusantium libero provident voluptate amet.</div>
                             </div>
                             <div className="left-content">
                                 <a className="btn-black" href="AboutCompany.html">Learn More<i className="fa-regular fa-arrow-up-right"></i></a>
-                                <a className="btn-cirkle-play" href="learnmorevideo.html"><i className="fa-thin fa-circle-play fa-2xl" style="color: #131313;"></i></a>
+                                <a className="btn-cirkle-play" href="learnmorevideo.html"><i className="fa-thin fa-circle-play fa-2xl"></i></a>
                                 <div>Intro Video</div>
                             </div>
                         </div>

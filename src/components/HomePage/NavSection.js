@@ -1,5 +1,4 @@
 import React from 'react'
-import './NavSection.css'
 
 import img_logotype from '../../assets/images/Logotype.svg'
 import Button from '../Generics/Button'
@@ -40,7 +39,7 @@ const NavSection = () => {
                 <a className="active" href="index.html">Home</a>
                 <a href="services.html">Service</a>
                 <a href="news.html">News</a>
-                <a href="contacts.html">Contact</a>
+                <a href="contacts.html">contact</a>
             </nav>
             <Button text= "Login" url= "/login"/>
         </div>

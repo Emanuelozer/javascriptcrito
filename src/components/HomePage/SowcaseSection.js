@@ -1,5 +1,4 @@
 import React from 'react'
-import './ShowcaseSection.css'
 
 import img_backgroundlines from '../../assets/images/background-lines.svg'
 import img_imageofaman from '../../assets/images/Showcase-image.svg'

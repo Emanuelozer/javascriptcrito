@@ -530,10 +530,10 @@ header .container .menu .btn-login {
   }
 }
 .About-Company .container .section-title .lorem-1 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .About-Company .container .section-title .lorem-2 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .About-Company .container .section-title .left-content {
   padding-top: 100px;
@@ -632,8 +632,8 @@ header .container .menu .btn-login {
   padding-bottom: 70px;
   padding-inline: 30px;
 }
-.Our-Services .services .service.yellow {
-  background-color: #f9d783;
+.Our-Services .services .service:hover {
+  background-color: #f0d082;
 }
 .Our-Services .services .service h3 {
   color: #191919;

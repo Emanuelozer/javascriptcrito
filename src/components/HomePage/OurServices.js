@@ -23,7 +23,7 @@ const OurServices = () => {
                             <div className="streck"></div>
                             <h3>Startup Business</h3>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                            <a className="btn-white" href="index.html"><i className="fa-solid fa-arrow-right"></i></a>
+                            <a className="btn-black" href="index.html"><i className="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <div className="service">
                             <div className="streck"></div>
