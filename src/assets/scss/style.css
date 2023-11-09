@@ -1321,3 +1321,198 @@ header .container .menu .btn-login {
 .footer .footer-menu .socialmedia-bar a:hover {
   color: #a1a1a1;
 }
+
+.showcase-contact {
+  background-color: #f0efe9;
+  position: relative;
+  z-index: 0;
+}
+.showcase-contact .background-lines {
+  position: absolute;
+  bottom: -15px;
+  z-index: -1;
+  left: 0;
+}
+.showcase-contact .container {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.showcase-contact .container h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+  .showcase-contact .container h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .showcase-contact .container h1 {
+    font-size: 86px;
+  }
+}
+.showcase-contact .container a {
+  color: #191919;
+  text-decoration: none;
+  margin: 8px;
+}
+.showcase-contact .container a:hover {
+  text-decoration: underline;
+}
+.showcase-contact .container img {
+  display: none;
+  margin-right: -50px;
+}
+@media (min-width: 1200px) {
+  .showcase-contact .container img {
+    display: block;
+  }
+}
+
+.contact-section {
+  margin-top: 60px;
+}
+@media (min-width: 992px) {
+  .contact-section {
+    margin-top: 120px;
+  }
+}
+.contact-section .contact-container {
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .contact-section .contact-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.contact-section .contact-container .contact-box {
+  border: 2px solid #d8d8d8;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  margin-bottom: 50px;
+  color: #191919;
+  text-decoration: none;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.contact-section .contact-container .contact-box i {
+  font-size: 60px;
+  margin-right: 24px;
+}
+.contact-section .contact-container .contact-box:hover {
+  border: 2px solid #191919;
+  box-shadow: 4px 4px 4px 1px rgba(61, 61, 61, 0.5);
+}
+@media (min-width: 992px) {
+  .contact-section .contact-container .contact-box {
+    padding-left: 15px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-section .contact-container .contact-box {
+    padding-left: 30px;
+    padding-right: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .contact-section .contact-container .contact-box {
+    padding-left: 60px;
+    padding-right: 100px;
+  }
+}
+.contact-section .contact-container .contact-box .contact-info h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 8px 0px;
+}
+.contact-section .contact-container .contact-box .contact-info p {
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5;
+  color: #636363;
+}
+
+.message-container {
+  background-color: #F0EFE9;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 100px 0px;
+}
+.message-container .messageSent {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(74, 198, 84);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.message-container .errorMessage {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(240, 70, 70);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .message-container {
+    padding-top: 135px;
+    margin-bottom: 120px;
+  }
+}
+.message-container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.message-container .message-box {
+  display: flex;
+  justify-content: center;
+}
+.message-container .message-box form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .message-container .message-box form {
+    width: 80%;
+  }
+}
+.message-container .message-box form input {
+  padding: 12px 32px;
+  margin-bottom: 16px;
+  outline: none;
+  border-radius: 32px;
+  border: none;
+}
+.message-container .message-box form textarea {
+  margin-bottom: 45px;
+  padding: 12px 32px 100px;
+  border-radius: 32px;
+  border: none;
+  line-height: 1.5;
+  resize: none;
+  outline: none;
+}
+
+.google-maps iframe {
+  width: 100%;
+  height: 420px;
+}
+@media (min-width: 768px) {
+  .google-maps iframe {
+    height: 620px;
+  }
+}

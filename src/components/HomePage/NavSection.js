@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { NavLink, Link } from 'react-router-dom'
+
 import img_logotype from '../../assets/images/Logotype.svg'
 import Button from '../Generics/Button'
 
@@ -8,9 +10,7 @@ const NavSection = () => {
     <div className="container">
         <button className="btn-menubars"><i className="fa-solid fa-bars-staggered"></i></button>
         <div className="logotype">
-            <a href="index.html">
-                <img src={img_logotype} alt="crito logotype"/>
-            </a>
+            <Link to={"/"}><img src={img_logotype} alt="crito logotype"/></Link>
         </div>
         <div className="contactinformation-bar">
             <div className="content-box">
@@ -29,19 +29,20 @@ const NavSection = () => {
         </div>
 
         <div className="socialmedia-bar">
-            <a href="https//facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-            <a href="https//twitter.com/" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
-            <a href="https//instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-            <a href="https//linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
         </div>
         <div className="menu">
             <nav>
-                <a className="active" href="index.html">Home</a>
-                <a href="services.html">Service</a>
-                <a href="news.html">News</a>
-                <a href="contacts.html">contact</a>
+                <NavLink className to="/">Home</NavLink>
+                <NavLink className to="/services">Services</NavLink>
+                <NavLink className to="/news">News</NavLink>
+                <NavLink className to="/contacts">Contacts</NavLink>
             </nav>
             <Button text= "Login" url= "/login"/>
+                
         </div>
     </div>  )
 }

@@ -1,17 +1,17 @@
 import React from 'react'
 
+import ShowcaseSection from '../HomePage/SowcaseSection'
 
-import Loggotypes from '../Logotypes/Logotypes'
-import Features from '../Features/Features'
-import AboutCompany from '../AboutCompany/AboutCompany'
-import OurServices from '../OurServices/OurServices'
-import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
-import ProjectAndCase from '../ProjectAndCase/ProjectAndCase'
-import MeetOurTeam from '../MeetOurTeam/MeetOurTeam'
-import Testimonial from '../Testimonial/Testimonial'
-import ArticleNews from '../ArticleNews/ArticleNews'
-import Newsletter from '../Newsletter/Newsletter'
-import Footer from '../Footer/Footer'
+import Loggotypes from '../HomePage/Logotypes'
+import Features from '../HomePage/Features'
+import AboutCompany from '../HomePage/AboutCompany'
+import OurServices from '../HomePage/OurServices'
+import WhyChooseUs from '../HomePage/WhyChooseUs'
+import ProjectAndCase from '../HomePage/ProjectAndCase'
+import MeetOurTeam from '../HomePage/MeetOurTeam'
+import Testimonial from '../HomePage/Testimonial'
+import ArticleNews from '../HomePage/ArticleNews'
+import Newsletter from '../HomePage/Newsletter'
 
 
 
@@ -20,6 +20,7 @@ import Footer from '../Footer/Footer'
 const Main = () => {
   return (
     <main>
+        <ShowcaseSection/>
         <Loggotypes/>
         <Features/>
         <AboutCompany/>
@@ -30,7 +31,6 @@ const Main = () => {
         <Testimonial/>
         <ArticleNews/>
         <Newsletter/>
-        <Footer/>
     </main>
   )
 }

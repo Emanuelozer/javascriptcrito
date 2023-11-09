@@ -6,7 +6,7 @@ import NavSection from '../HomePage/NavSection'
 const Header = () => {
   return (
     <header>
-        <NavSection />
+        <NavSection/>
     </header>
   )
 

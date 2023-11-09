@@ -6,9 +6,13 @@ import './assets/scss/style.css';
 
 
 
+
+
 import Home from './components/views/Home';
 import Contacts from './components/views/Contacts';
 import NotFound from './components/views/NotFound';
+import AutoScrollToTop from './components/AutoScrollToTop';
+
 
 
 
@@ -17,11 +21,11 @@ import NotFound from './components/views/NotFound';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   
     <BrowserRouter>
+    <AutoScrollToTop/>
       <Routes>
         <Route path = '/' element={<Home />} />
-        <Route path = '/contacts' element={<Contacts />} />
+        <Route path='/contacts' element={<Contacts />}/>
         <Route path = '*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

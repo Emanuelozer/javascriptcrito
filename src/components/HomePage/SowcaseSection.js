@@ -14,7 +14,7 @@ const ShowcaseSection = () => {
                 <h1>We Provide The Best Business Solutions</h1>
                 <p>Establish your vision and value propistion and turn them into testable prototypes.</p>
                 <Button text="Get Consultning" url="c/services/get-consultning" />
-                <a className="btn-transparent" href="services.html">Learn More<i class="fa-regular fa-arrow-up-right"></i></a>
+                <a className="btn-transparent" href="services.html">Learn More<i className="fa-regular fa-arrow-up-right"></i></a>
             </div>
             <img src={img_imageofaman} alt="image of a man"/>
         </div>
